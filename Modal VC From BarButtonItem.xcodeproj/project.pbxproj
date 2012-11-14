@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EDDF36116537DF300DE01E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDDF36016537DF300DE01E2 /* UIKit.framework */; };
+		9EDDF36316537DF300DE01E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDDF36216537DF300DE01E2 /* Foundation.framework */; };
+		9EDDF36516537DF300DE01E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDDF36416537DF300DE01E2 /* CoreGraphics.framework */; };
+		9EDDF36B16537DF300DE01E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDF36916537DF300DE01E2 /* InfoPlist.strings */; };
+		9EDDF36D16537DF300DE01E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDF36C16537DF300DE01E2 /* main.m */; };
+		9EDDF37116537DF300DE01E2 /* PTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDF37016537DF300DE01E2 /* PTAAppDelegate.m */; };
+		9EDDF37316537DF300DE01E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDF37216537DF300DE01E2 /* Default.png */; };
+		9EDDF37516537DF300DE01E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDF37416537DF300DE01E2 /* Default@2x.png */; };
+		9EDDF37716537DF300DE01E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDF37616537DF300DE01E2 /* Default-568h@2x.png */; };
+		9EDDF37F16537E0C00DE01E2 /* PTAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDF37E16537E0C00DE01E2 /* PTAMainViewController.m */; };
+		9EDDF38216537E1500DE01E2 /* PTAModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDF38116537E1500DE01E2 /* PTAModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9EDDF35D16537DF300DE01E2 /* Modal VC From BarButtonItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modal VC From BarButtonItem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDDF36016537DF300DE01E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9EDDF36216537DF300DE01E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9EDDF36416537DF300DE01E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9EDDF36816537DF300DE01E2 /* Modal VC From BarButtonItem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Modal VC From BarButtonItem-Info.plist"; sourceTree = "<group>"; };
+		9EDDF36A16537DF300DE01E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EDDF36C16537DF300DE01E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EDDF36E16537DF300DE01E2 /* Modal VC From BarButtonItem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Modal VC From BarButtonItem-Prefix.pch"; sourceTree = "<group>"; };
+		9EDDF36F16537DF300DE01E2 /* PTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTAAppDelegate.h; sourceTree = "<group>"; };
+		9EDDF37016537DF300DE01E2 /* PTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTAAppDelegate.m; sourceTree = "<group>"; };
+		9EDDF37216537DF300DE01E2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9EDDF37416537DF300DE01E2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9EDDF37616537DF300DE01E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9EDDF37D16537E0C00DE01E2 /* PTAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTAMainViewController.h; sourceTree = "<group>"; };
+		9EDDF37E16537E0C00DE01E2 /* PTAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTAMainViewController.m; sourceTree = "<group>"; };
+		9EDDF38016537E1500DE01E2 /* PTAModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTAModalViewController.h; sourceTree = "<group>"; };
+		9EDDF38116537E1500DE01E2 /* PTAModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTAModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EDDF35A16537DF300DE01E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDDF36116537DF300DE01E2 /* UIKit.framework in Frameworks */,
+				9EDDF36316537DF300DE01E2 /* Foundation.framework in Frameworks */,
+				9EDDF36516537DF300DE01E2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EDDF35416537DF300DE01E2 = {
+			isa = PBXGroup;
+			children = (
+				9EDDF36616537DF300DE01E2 /* Modal VC From BarButtonItem */,
+				9EDDF35F16537DF300DE01E2 /* Frameworks */,
+				9EDDF35E16537DF300DE01E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EDDF35E16537DF300DE01E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EDDF35D16537DF300DE01E2 /* Modal VC From BarButtonItem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EDDF35F16537DF300DE01E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EDDF36016537DF300DE01E2 /* UIKit.framework */,
+				9EDDF36216537DF300DE01E2 /* Foundation.framework */,
+				9EDDF36416537DF300DE01E2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EDDF36616537DF300DE01E2 /* Modal VC From BarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				9EDDF36F16537DF300DE01E2 /* PTAAppDelegate.h */,
+				9EDDF37016537DF300DE01E2 /* PTAAppDelegate.m */,
+				9EDDF36716537DF300DE01E2 /* Supporting Files */,
+				9EDDF37D16537E0C00DE01E2 /* PTAMainViewController.h */,
+				9EDDF37E16537E0C00DE01E2 /* PTAMainViewController.m */,
+				9EDDF38016537E1500DE01E2 /* PTAModalViewController.h */,
+				9EDDF38116537E1500DE01E2 /* PTAModalViewController.m */,
+			);
+			path = "Modal VC From BarButtonItem";
+			sourceTree = "<group>";
+		};
+		9EDDF36716537DF300DE01E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EDDF36816537DF300DE01E2 /* Modal VC From BarButtonItem-Info.plist */,
+				9EDDF36916537DF300DE01E2 /* InfoPlist.strings */,
+				9EDDF36C16537DF300DE01E2 /* main.m */,
+				9EDDF36E16537DF300DE01E2 /* Modal VC From BarButtonItem-Prefix.pch */,
+				9EDDF37216537DF300DE01E2 /* Default.png */,
+				9EDDF37416537DF300DE01E2 /* Default@2x.png */,
+				9EDDF37616537DF300DE01E2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EDDF35C16537DF300DE01E2 /* Modal VC From BarButtonItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDDF37A16537DF300DE01E2 /* Build configuration list for PBXNativeTarget "Modal VC From BarButtonItem" */;
+			buildPhases = (
+				9EDDF35916537DF300DE01E2 /* Sources */,
+				9EDDF35A16537DF300DE01E2 /* Frameworks */,
+				9EDDF35B16537DF300DE01E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Modal VC From BarButtonItem";
+			productName = "Modal VC From BarButtonItem";
+			productReference = 9EDDF35D16537DF300DE01E2 /* Modal VC From BarButtonItem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EDDF35516537DF300DE01E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PTA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Wilcox Technologies LLC";
+			};
+			buildConfigurationList = 9EDDF35816537DF300DE01E2 /* Build configuration list for PBXProject "Modal VC From BarButtonItem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9EDDF35416537DF300DE01E2;
+			productRefGroup = 9EDDF35E16537DF300DE01E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EDDF35C16537DF300DE01E2 /* Modal VC From BarButtonItem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EDDF35B16537DF300DE01E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDDF36B16537DF300DE01E2 /* InfoPlist.strings in Resources */,
+				9EDDF37316537DF300DE01E2 /* Default.png in Resources */,
+				9EDDF37516537DF300DE01E2 /* Default@2x.png in Resources */,
+				9EDDF37716537DF300DE01E2 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EDDF35916537DF300DE01E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDDF36D16537DF300DE01E2 /* main.m in Sources */,
+				9EDDF37116537DF300DE01E2 /* PTAAppDelegate.m in Sources */,
+				9EDDF37F16537E0C00DE01E2 /* PTAMainViewController.m in Sources */,
+				9EDDF38216537E1500DE01E2 /* PTAModalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EDDF36916537DF300DE01E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDDF36A16537DF300DE01E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EDDF37816537DF300DE01E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EDDF37916537DF300DE01E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_STRICT_ALIASING = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EDDF37B16537DF300DE01E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modal VC From BarButtonItem/Modal VC From BarButtonItem-Prefix.pch";
+				INFOPLIST_FILE = "Modal VC From BarButtonItem/Modal VC From BarButtonItem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9EDDF37C16537DF300DE01E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modal VC From BarButtonItem/Modal VC From BarButtonItem-Prefix.pch";
+				INFOPLIST_FILE = "Modal VC From BarButtonItem/Modal VC From BarButtonItem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EDDF35816537DF300DE01E2 /* Build configuration list for PBXProject "Modal VC From BarButtonItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDDF37816537DF300DE01E2 /* Debug */,
+				9EDDF37916537DF300DE01E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EDDF37A16537DF300DE01E2 /* Build configuration list for PBXNativeTarget "Modal VC From BarButtonItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDDF37B16537DF300DE01E2 /* Debug */,
+				9EDDF37C16537DF300DE01E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EDDF35516537DF300DE01E2 /* Project object */;
+}
