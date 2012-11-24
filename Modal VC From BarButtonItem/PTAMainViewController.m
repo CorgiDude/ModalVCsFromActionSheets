@@ -21,10 +21,9 @@
 -(void)dismissTappedInModalVC:(id)action
 {
 	[self dismissModalViewControllerAnimated:YES];
-	self.navigationItem.title = @"No more action button in 6.x!";
 }
 
--(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+-(void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
 	switch(buttonIndex)
 	{
@@ -79,7 +78,7 @@
 	[super viewDidLoad];
 	
 	self.view.backgroundColor = [UIColor lightGrayColor];
-	self.navigationItem.title = @"Press Action Button";
+	self.navigationItem.title = @"This is b4's app";
 	
 	UIBarButtonItem *actionButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(actionTapped:)];
 	[self setToolbarItems:[NSArray arrayWithObject:actionButton]];
